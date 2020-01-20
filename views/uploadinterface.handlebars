@@ -1,0 +1,19 @@
+<form class="verticalCenter" action="/upload" method="POST" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td><label for="media">Choose Image:</label></td>
+            <td><input type="file" name="media" id="media"></td>
+        </tr>
+        <tr>
+            <td><label for="caption">Caption</label></td>
+            <td><input type="text" placeholder="text" name="caption" id="caption"></td>
+        </tr>
+        <tr>
+            <td><label for="keywords">Keywords</label></td>
+            <td><input type="text" data-role="tagsinput" name="keywords" id="keywords"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" class="btn btn-primary" value="Upload File"></td>
+        </tr>
+    </table>
+</form>
